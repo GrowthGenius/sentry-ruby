@@ -190,7 +190,7 @@ module Raven
       Raven::Processor::RemoveCircularReferences,
       Raven::Processor::UTF8Conversion,
       Raven::Processor::SanitizeData,
-      Raven::Processor::FixedCookies,
+      Raven::Processor::Cookies,
       Raven::Processor::PostData,
       Raven::Processor::HTTPHeaders
     ].freeze
